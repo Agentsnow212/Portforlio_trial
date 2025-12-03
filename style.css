@@ -1,4 +1,4 @@
-{
+ *{
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-.navbar .logo{
+.navbar .LOGO{
     width: 160px;
     cursor: pointer;
     margin-top: -3%;
@@ -53,22 +53,27 @@ ul li a:hover{
 
 .info{
     margin-left: 7%;
-    margin-top: 6%;
+    margin-top: 13%;
 }
 
 .info h1{
     color: rgb(36, 32, 30);
     font-size: 65px;
+    margin-bottom: 10px; 
+    font-weight: bold;
+    line-height: 1.2; 
 }
 
 .info h2{
     color: rgb(36, 32, 30);
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 .info h3{
     color: rgb(36, 32, 30);
     font-size: 25px;
+    margin-bottom: 30px
 }
 
 .info span{
@@ -102,7 +107,7 @@ ul li a:hover{
     height: 140%;
     left: 48%;
     position: absolute;
-    transform: translate(-55%);
+    transform: translateX(-55%);
     bottom: 0%;
     transition: left 0.5s ease;
     transform: 0.5s ease;
@@ -122,10 +127,10 @@ ul li a:hover{
     margin-left: 7%;
     margin-right: -60px;
     font-size: 40px;
-    transition: 4s ease;
+    transition: 0.4s ease;
 }
 
 .icons a:hover ion-icon{
     color: darkgreen;
-    transition: 0.3s;
+    transform: translateY(-5px);
 }
